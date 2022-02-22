@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    list-style: none; /*estilos de las listas*/
+}
+ul li{
+    font-family:'segoe ui', tahoma, geneva, verdana, sans-serif; /*tipo de letra*/
+    font-size 22px; /*tamaño de letra*/
+    height: 60px; /*altura de cada opcion de lista*/
+}
+ul li a{
+    height: 60px; /*altura*/
+    background-color:black; /*color de fondo*/
+    display: block; 
+    border-left: 10px solid rgb(8,96,179);
+    border-right: 5px solid rgb(144, 253, 111);
+    padding-left: 15px; /*separacion izquierda del texto*/
+    text-decoration: none;
+    color;#bfe1f1
+}
+ul li a: hover{
+    margin-left: 10px; /*separacion del lado izquierdo*/
+    color:#b9b7b7; /*color de letra*/
+    background-color: #0b1741; /*color de fondo*/
+    box-shadow: 10px 20px #000; /*sombra*/
+    transfom: rotate(4deg); /*movimiento de rotacion*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+td{
+    vertical-align: top;
+}
